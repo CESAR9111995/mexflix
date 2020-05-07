@@ -1,0 +1,110 @@
+body{
+	background: #000;
+	font-family: sans-serif;
+} .logo{
+	width: 30%;
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+} 
+
+.boton{
+	width: 250px;
+	height: 80px;
+	background: red; 
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-radius: 20px;
+} .boton:hover{
+	background: #FFF;
+	border:2px solid red;
+
+}
+.boton a{
+	font-size: 50px;
+	text-decoration: none;
+	color: #FFF;
+	line-height: 80px;
+}  .boton a:hover{
+	color: red;
+}
+
+
+/**************tablet***********/
+
+ @media screen and (max-width:769px) {
+body{
+	background: #000;
+	font-family: sans-serif;
+} .logo{
+	width: 300px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 100px;
+	display: block;
+} 
+
+.boton{
+	width: 250px;
+	height: 80px;
+	background: red; 
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	border-radius: 20px;
+} .boton:hover{
+	background: #FFF;
+	border:2px solid red;
+
+}
+.boton a{
+	font-size: 50px;
+	text-decoration: none;
+	color: #FFF;
+	line-height: 80px;
+}  .boton a:hover{
+	color: red;
+}
+
+ }
+
+
+ @media screen and (max-width:361px) {
+
+body{
+	background: #000;
+	font-family: sans-serif;
+} .logo{
+	width: 250px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 200px;
+	display: block;
+} 
+
+.boton{
+	width: 200px;
+	height: 50px;
+	background: red; 
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 20px;
+} .boton:hover{
+	background: #FFF;
+	border:2px solid red;
+
+}
+.boton a{
+	font-size: 30px;
+	text-decoration: none;
+	color: #FFF;
+	line-height: 50px;
+}  .boton a:hover{
+	color: red;
+}
+
+ }
+
+ }
